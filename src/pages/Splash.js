@@ -3,7 +3,7 @@ import { SafeAreaView, Text, TouchableOpacity } from "react-native";
 
 function Splash({ navigation }) {
     return (
-        <SafeAreaView style={{ backgroundColor: 'red', flex: 1}}>
+        <SafeAreaView style={{ backgroundColor: 'gray', flex: 1}}>
             <Text>Hello Splash DiaryApp</Text>
             <TouchableOpacity
                 onPress={() => {
